@@ -20,6 +20,7 @@ import org.springframework.core.NestedRuntimeException;
 
 /**
  * Exception that gets thrown on illegal AOP configuration arguments.
+ * 非法 AOP 配置参数引发的异常。
  *
  * @author Rod Johnson
  * @since 13.03.2003

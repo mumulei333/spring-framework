@@ -40,6 +40,7 @@ public class SingletonAspectInstanceFactory implements AspectInstanceFactory, Se
 
 	/**
 	 * Create a new SingletonAspectInstanceFactory for the given aspect instance.
+	 * 为给定的方面实例创建一个新的 SingletonAspectInstanceFactory。
 	 * @param aspectInstance the singleton aspect instance
 	 */
 	public SingletonAspectInstanceFactory(Object aspectInstance) {

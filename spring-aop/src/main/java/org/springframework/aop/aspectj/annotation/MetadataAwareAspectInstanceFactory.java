@@ -36,12 +36,14 @@ public interface MetadataAwareAspectInstanceFactory extends AspectInstanceFactor
 
 	/**
 	 * Return the AspectJ AspectMetadata for this factory's aspect.
+	 * 返回此工厂方面的 AspectJ AspectMetadata
 	 * @return the aspect metadata
 	 */
 	AspectMetadata getAspectMetadata();
 
 	/**
 	 * Return the best possible creation mutex for this factory.
+	 * 为这个工厂返回最好的创建互斥量
 	 * @return the mutex object (may be {@code null} for no mutex to use)
 	 * @since 4.3
 	 */

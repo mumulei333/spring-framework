@@ -37,6 +37,7 @@ public interface Advisor {
 
 	/**
 	 * Common placeholder for an empty {@code Advice} to be returned from
+	 * 返回空 {@code Advice} 的通用占位符
 	 * {@link #getAdvice()} if no proper advice has been configured (yet).
 	 * @since 5.0
 	 */
@@ -46,6 +47,7 @@ public interface Advisor {
 	/**
 	 * Return the advice part of this aspect. An advice may be an
 	 * interceptor, a before advice, a throws advice, etc.
+	 * 返回这方面的建议部分。建议可以是拦截器、前建议、抛出建议等。
 	 * @return the advice that should apply if the pointcut matches
 	 * @see org.aopalliance.intercept.MethodInterceptor
 	 * @see BeforeAdvice
@@ -56,6 +58,7 @@ public interface Advisor {
 
 	/**
 	 * Return whether this advice is associated with a particular instance
+	 * 返回此建议是否与特定实例相关联
 	 * (for example, creating a mixin) or shared with all instances of
 	 * the advised class obtained from the same Spring bean factory.
 	 * <p><b>Note that this method is not currently used by the framework.</b>
